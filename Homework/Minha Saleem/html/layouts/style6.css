@@ -1,0 +1,137 @@
+
+body{
+    background-image: url("braxton.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    display: flex;
+    color: white;
+    height: 100px;
+    width: 400px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+}
+
+.nav2{
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    margin-left: 28cm;
+    margin-top: 2cm;
+    margin-right: 2cm;
+}
+
+.nav2 button{
+    border-radius: 100px;
+    width: 50px;
+    height:50px;
+    background-color: transparent;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav2 img{
+    height: 30px;
+    width: 30px;
+}
+.nav3 button{
+    border-radius: 100px;
+    width: 100px;
+    background-color: plum;
+    display: flex;
+    color: black;
+}
+.nav3 img{
+    height: 20px;
+    width: 20px;
+}
+
+.nav1 h1{
+    font-size: 25px;
+}
+
+content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 img{
+    height: 30px;
+    width: 30px;
+}
+
+.flex{
+    display: flex;
+}
+.content1 button{
+    border-radius: 200px;
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    color: white;
+} 
+
+.content2 button{
+    border-radius: 200px; 
+    width: 150px; 
+    height:45px;
+    background-color: plum; 
+    color:black;
+}
+
+.content2 img{
+    height:10px;
+    width: 10px;
+}
+
+.content3 img{
+    height: 20px;
+    width: 20px;
+
+}
+
+.content button{
+    border-radius: 100px;
+    width: 150px;
+    height: 45px;
+    margin-left: 2cm;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3 button{
+    background: transparent;
+    color: white;
+}
+
+.content h1{
+    color:plum;
+    font-size: 75px;
+    margin-left: 2cm;
+}
+
+.footer{
+    margin-top: 4cm;
+    height: 50px;
+    width: 100%;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    height: 10px;
+    width: 10px;
+}
+

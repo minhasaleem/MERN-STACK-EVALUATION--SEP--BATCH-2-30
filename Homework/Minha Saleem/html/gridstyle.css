@@ -1,0 +1,26 @@
+.parent{
+   display: grid;
+   background-color: aqua;
+   height: 400px;
+   width: 900px;
+   grid-template-columns:repeat(3,1fr);
+   grid-template-rows:repeat(3,1fr);
+}
+
+.one{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.four{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.two{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+

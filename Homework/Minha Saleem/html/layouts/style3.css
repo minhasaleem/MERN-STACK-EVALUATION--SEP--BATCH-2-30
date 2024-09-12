@@ -1,0 +1,47 @@
+.second a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 60px;
+}
+
+.one h1{
+    padding: 10px;
+}
+.parent1{
+    height: 100px;
+    width: 1500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 28, 160);
+}
+.third{
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    background-image: url("bimg.jpg");
+}
+
+.fourth{
+    height: 200px;
+    color: white;
+}
+
+.fifth button{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 130px;
+    width: 200px;
+    color: white;
+}
+
+
+

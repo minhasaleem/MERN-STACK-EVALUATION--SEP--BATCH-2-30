@@ -1,0 +1,78 @@
+body{
+    background-image: url("bluebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(100, 100, 246);
+}
+
+.nav1{
+    height :50px;
+    width: 100px;
+    margin-left: 2cm;
+}
+
+.nav2{
+    height: 50px;
+    width: 200px;
+    margin-top: 1cm;
+    margin-left: 10cm;
+}
+
+.nav2 input{
+    border-radius: 100px;
+    width: 150px;
+}
+
+.nav3{
+    height: 50px;
+    width:900px;
+    margin-top: 1cm;
+    margin-left: 10cm;
+    display: flex;
+}
+
+.nav3 button{
+    border-radius: 20px;
+    width: 100px;
+}
+
+.nav4 button{
+    background-color: plum;
+}
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2cm;
+}
+
+b{
+    font-size: 50px;
+}
+
+.content1{
+    text-align: center;
+}
+
+.content2{
+    font-size:25px ;
+}
+
+.content3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.ad{
+    height: 300px;
+    width: 300px;
+    background-image: url("ad.jpg");
+}

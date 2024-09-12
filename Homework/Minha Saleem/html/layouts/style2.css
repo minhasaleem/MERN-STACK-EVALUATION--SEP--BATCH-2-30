@@ -1,0 +1,51 @@
+.parent1 {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+
+.parent2 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+.parent3 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+.parent4 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.parent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.parent3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent5 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.parent5 {
+    height: 500px;
+    width: 500px;
+    background-color: green;
+}
+
+

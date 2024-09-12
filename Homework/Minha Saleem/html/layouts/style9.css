@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    height: 100px;
+    width: 1513px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav1{
+    display: flex;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+    height: 100px;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.nav2{
+    display: flex;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.content{
+    height: 350px;
+    width: 1513px;
+    /* background-color: blue; */
+    margin-left: 2cm;
+}
+
+.two{
+    background-color: rgb(62, 49, 49);
+    height: 275px;
+    width: 1529px;
+}
+
+.one{
+    background-image:url("furiosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}  
+
+.content1 p{
+    font-size: 50px;
+}
+
+.content2 button{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+.ad{
+    height: 50px;
+}
+
+.ad p{
+    /* margin-top: 0.5cm; */
+    margin-left: 0.5cm;
+    font-size: 20px;
+    padding: 0.25cm;
+}
+
+.img{
+    height: 225px;
+    width: 1490px ;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1{
+    height: 225px;
+    width: 190px;
+    background-image:url("coco.jpg");
+}
+
+.img2{
+    height: 225px;
+    width: 190px;
+    background-image: url("tangled.jpg");
+}
+
+.img3{
+    height: 225px;
+    width: 190px;
+    background-image: url("encanto.jpg");
+}
+
+.img4{
+    height: 225px;
+    width: 190px;
+    background-image: url("rata.jpg");
+}
+.img5{
+    height: 225px;
+    width: 190px;
+    background-image: url("moana.jpg");
+}
+
+.img6{
+    height: 225px;
+    width: 190px;
+    background-image: url("insideout.jpg")
+}
+
+.img7{
+    height: 225px;
+    width: 190px;
+    background-image: url(up.jpg);
+}
+
+.img8{
+    height: 225px;
+    width: 90px;
+    background-image: url("frozen.jpg");
+}

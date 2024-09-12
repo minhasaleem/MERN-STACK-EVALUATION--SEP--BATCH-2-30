@@ -1,0 +1,15 @@
+.parent{
+    height: 600px;
+    width: 900px;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+
+.child{
+    background-color: grey;
+    width: 350px;
+    height: 100px;
+}

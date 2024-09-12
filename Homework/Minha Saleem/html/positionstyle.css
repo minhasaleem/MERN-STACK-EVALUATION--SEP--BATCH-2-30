@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.parent{
+    background-color: rgb(204, 60, 82);
+    height: 800px;
+    width: 400px;
+    margin-top: 4cm;
+    margin-left: 2cm;
+    position: relative;
+    top: 50px;
+}
+
+.child1{
+    height: 100px;
+    width: 400px;
+    background-color: aqua;
+    /* position: relative;
+    top: 10px; */
+}
+
+.child2 {
+    height: 100px;
+    width: 400px;
+    background-color: blueviolet;
+     position: fixed;
+    top: 70px;
+}
+
+
+.child3{
+    height: 100px;
+    width: 400px;
+    background-color: cornflowerblue;
+}

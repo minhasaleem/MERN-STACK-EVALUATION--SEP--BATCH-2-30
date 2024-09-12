@@ -1,0 +1,42 @@
+.animation {
+      background-color: green;
+      height: 400px;
+      width: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* position: relative; */
+}
+
+.animation{
+    animation: moveto 3s ease;
+    /* animation-iteration-count: 3; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation: moveto 3s ease  backwards ; */
+    /* animation: moveto 3s ease  forwards ; */
+    /* animation: moveto 3s ease  infinite ; */
+    
+}
+
+@keyframes moveto {
+    0%{
+        transform: translateX(0);
+        background-color: green;
+        border-radius: 0;
+    }   
+
+    50%{
+        background-color: yellow;
+        border-radius: 0%;
+        /* left: 200px;
+        top: 0px; */
+    }
+    
+    100%{
+        transform: translateX(100px);
+        background-color: blue;
+        border-radius: 20px;
+    }
+}

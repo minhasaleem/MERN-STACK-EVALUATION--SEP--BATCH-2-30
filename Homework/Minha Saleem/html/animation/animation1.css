@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+
+
+.animate{
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    /* position: relative; */
+}
+
+button{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.animation{
+   animation: moveto 3s ease; 
+   /* animation-direction: reverse; */
+   /* float: left; */
+   /* animation: slide-left 2s forwards; */
+}
+
+@keyframes moveto {
+    0%{
+        transform: translateX(0px);
+        background-color: green;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateX(100px);
+        background-color: green;
+    }
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one{
+    height: 1000px;
+    width: 600px;
+    background-color: aqua;
+}
+
+.aqua{
+    margin-top: 6cm;
+    margin-left: 2cm;
+}
+
+.aqua b{
+    font-size: 30px;
+}
+
+.side{
+    margin-left: 17cm;
+    margin-top: 2cm;
+}
+
+.side u{
+    color:  rgb(6, 153, 116);
+}
+
+.hr{
+   display: flex;
+   justify-content: space-between;
+}
+
+.hr1 hr{
+    width: 7cm;
+}
+
+.hr2 {
+    font-size: 12px;
+}
+
+.hr3 hr{
+     width: 7cm;
+}
+
+.center{
+    margin-left: 3cm;
+}
+
+.center1 b{
+    font-size: 30px;
+}
+
+.center2 button{
+     color: white;
+     background-color: red;
+     height: 33px; 
+     width: 200px;
+     border-radius: 5px;
+     border: transparent;
+}
+
+.center4 input{
+    height: 40px;
+    width: 700px;
+    background-color: rgb(244, 238, 238);
+    border: none;
+}
+
+.center7 button{
+    background-color:rgb(6, 153, 116);
+    color: white;
+    height: 33px; 
+    width: 350px;
+    border-radius:5px;
+    border: transparent ;
+}
+
+.center3 p{
+    font-size: 20px;
+}
+
+.center6 input{
+    height: 40px;
+    width: 700px;
+    background-color: rgb(244, 238, 238);
+    border: none;
+}
+
+.center5 p{
+    font-size: 20px;
+}
+
+.center8 u{
+    color: rgb(5, 129, 98);
+}

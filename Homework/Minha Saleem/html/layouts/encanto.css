@@ -1,0 +1,14 @@
+
+*{
+    margin: 0;
+}
+
+.nav{
+    height: 50px;
+    width: 1550px;
+    background-color: black;
+}
+
+a{
+    color: white;
+}

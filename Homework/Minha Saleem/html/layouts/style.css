@@ -1,0 +1,55 @@
+ .header {
+     height: 100px;
+     width: 1500px;
+     background-color: black;
+     display: flex;
+ }
+
+.hero {
+    height: 300px;
+    width: 1500px;
+    background-color:blue ;
+}
+
+.menu {
+    height: 600px;
+    width: 300px;
+    background-color: red;
+}
+
+.second {
+    display:flex;
+}
+
+.main {
+    height: 300px;
+    width: 1200px;
+    background-color: darkblue;
+}
+
+.banner {
+    height: 150px;
+    width: 1200px;
+    background-color: yellow;
+}
+
+.extra {
+    height: 150px;
+    width: 950px; 
+    background-color: green;
+}
+
+.fourth {
+    display: flex;
+}
+
+.image {
+    height: 150px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+.full {
+    color: white;
+    text-align: center;
+}

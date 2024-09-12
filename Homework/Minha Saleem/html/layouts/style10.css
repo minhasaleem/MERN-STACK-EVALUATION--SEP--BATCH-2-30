@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+.nav{
+    height: 50px;
+    width: 1529px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.nav1{
+    height: 50px;
+    width:500px;
+    /* background-color: aqua; */
+}
+
+.nav1 i{
+    margin-top: 0.25cm;
+}
+
+.nav2{
+    display: flex;
+    /* background-color: blueviolet; */
+    margin-left: 6cm;
+    margin-top: 0.25cm;
+}
+
+.nav21 button{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color:transparent;
+}
+
+.nav22 button{
+       border-radius: 20px;
+       width: 300px;
+       height: 30px;
+       color: grey;
+       background-color: transparent;
+       display: flex;
+       align-items: center;
+}
+
+.nav3{
+    display: flex;
+    height: 50px;
+    width: 700px;
+    margin-left: 8cm;
+    /* background-color: chocolate; */
+    justify-content: space-evenly;
+     margin-top: 0.25cm; 
+}
+
+.nav31 button{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+}
+
+.nav31a{
+    margin-top: 0.15cm;
+}
+
+.nav31b{
+    margin-top: 0.15cm;
+}
+.nav32 button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color:plum;
+}
+
+.nav34{
+    margin-top: 0.15cm;
+}
+.nav35{
+    margin-top: 0.15cm;
+}
+
+.content{
+    display: flex;
+}
+
+.left{
+  background-color: rgb(31, 27, 27);
+  height: 590px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.lefta{
+    margin-top: 0.5cm;
+    display: flex;
+    margin-left: 0.5cm;
+}
+
+.lefta1{
+    width: 150px;
+}
+
+.lefta2{
+    margin-left: 4cm;
+}
+
+.lefta3{
+    margin-left: 0.5cm;
+}
+
+.leftb{
+     margin-top: 0.5cm;
+     margin-left: 0.5cm;
+}
+
+.leftb button{
+    color: white;
+    background-color: rgb(57, 50, 50);
+    border-radius: 15px;
+    width: 75px;
+    height: 27px;
+}
+
+.leftc{
+    display: flex;
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+    justify-content: space-between;
+}
+
+.leftc2{
+    margin-right: 0.25cm;
+}
+
+.leftc2 i{
+    margin-left: 0.25cm;
+}
+
+.leftD{
+    /* margin-top: 0.25cm; */
+    margin-left: 0.5cm;
+}
+
+.lefte{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.lefte2{
+    margin-left: 0.35cm;
+}
+
+.lefte1 img{
+    border-radius: 5px;
+
+}
+
+.leftf{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.leftf2{
+    margin-left: 0.25cm;
+    border-radius: 5px;
+
+}
+
+.leftg{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.legftg1 img{
+    border-radius: 5px;
+}
+
+.leftg2{
+    margin-left: 0.25cm;
+}
+
+.lefth{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.lefth1 img{
+    border-radius: 5px;
+}
+
+.lefth2{
+    margin-left: 0.25cm;
+}
+
+.lefti{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.lefti1 img{
+    border-radius: 5px;
+}
+
+.lefti2{
+    margin-left: 0.25cm;
+ 
+}
+
+.leftj{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.leftj1 img{
+    border-radius: 5px;
+}
+
+.leftj2{
+    margin-left: 0.25cm;
+ 
+}
+
+.leftk{
+    margin-top: 0.25cm;
+    display: flex;
+}
+
+.leftk1 img{
+    border-radius: 5px;
+}
+
+.leftk2{
+    margin-left: 0.25cm;
+ 
+}
+.leftd{
+    display: flex;
+    margin-top: 0.25cm;
+}
+
+.leftd2{
+    margin-left: 0.25cm;
+}
+
+.leftd1 img{
+    border-radius: 5px;
+}
+
+.center{
+    margin-left: 0.25cm;
+    background-color: rgb(93, 83, 83);
+    border-radius: 10px;
+    width: 690px;
+}
+
+.centerblack{
+    background-color: black;
+    margin-left: 0.25cm;
+    margin-top: 0.25cm;
+    margin-right: 0.25cm;
+    border-radius: 5px;
+    height: 330px;
+}
+
+.centera{
+    display: flex;
+}
+
+.centera1{
+    margin-top: 0.25cm;
+    margin-left: 7cm;
+}
+
+.centera2{
+    margin-top: 0.65cm;
+    margin-left: 6cm;
+}
+
+.centera2 button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.centerb{
+    display: flex;
+}
+
+.centerbb{
+    margin-left: 0.75cm;
+}
+
+.centerb{
+    margin-left: 0.25cm;
+}
+
+.centerb3{
+    display: flex;
+    margin-top: 0.25cm;
+}
+
+.centerb31 button{
+    border-radius: 20px;
+    width: 75px;
+    height: 35px;
+    background-color: rgb(15, 204, 15);
+}
+
+.centerb32 button{
+    border-radius: 20px;
+    width: 75px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    margin-left: 0.25cm;
+    border-color: white;
+}
+
+.centerb33{
+    margin-left: 0.25cm;
+    margin-top: 0.20cm;
+}
+
+.centerc{
+    display: flex;
+    margin-left: 0.25cm;
+    margin-top: 0.75cm;
+}
+
+.centerc1 button{
+     border-radius: 15px;
+     width: 45px;
+     height: 30px;
+}
+
+.centerc2 button{
+    margin-left: 0.25cm;
+    background-color: grey;
+    border-radius: 15px;
+    color: white;
+    width: 75px;
+    height: 30px;
+}
+
+.centerd{
+    margin-top: 0.75cm;
+    margin-left: 0.25cm;
+}
+
+.centerd1{
+    display: flex;
+}
+.centerd1a{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.centerd1a p{
+    margin-left: 0.25cm;
+}
+
+.centerd1b{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    margin-left: 0.25cm;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.centerd1b p{
+       margin-left: 0.25cm;
+}
+
+.centerd2{
+    display: flex;
+    margin-top: 0.25cm;
+}
+
+.centerd3a p{
+    margin-left: 0.25cm;
+}
+
+.centerd2a{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.centerd2a p{
+    margin-left: 0.25cm;
+
+}
+
+.centerd2b{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.25cm;
+    border-radius: 5px;
+}
+
+.centerd2b p{
+    margin-left: 0.25cm;
+}
+.centerd3{
+    display: flex;
+    margin-top: 0.25cm;
+    border-radius: 5px;
+}
+
+.centerd3a p{
+      margin-left: 0.25cm;
+
+}
+
+.centerd3a{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.centerd3b{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.25cm;
+    border-radius: 5px;
+}
+
+.centerd3b p{
+    margin-left: 0.25cm;
+}
+
+.centerd4{
+    display: flex;
+    margin-top: 0.25cm;
+}
+
+.centerd4a{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.centerd4a p{
+    margin-left: 0.25cm;
+}
+
+.centerd4b{
+    background-color: rgb(59, 52, 52);
+    width: 330px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 0.25cm;
+    border-radius: 5px;
+}
+
+.centerd4b p{
+    margin-left: 0.25cm;
+}
+
+.right{
+    width: 400px;
+    background-color: rgb(31, 27, 27);
+    margin-left: 0.25cm;
+    border-radius: 5px;
+}
+
+.right1{
+    margin-top: 0.25cm;
+    display: flex;
+    margin-left: 0.25cm;
+    justify-content: space-between;
+}
+
+.right1b{
+    margin-left: 5cm;
+}
+
+.right2 img{
+    margin-left: 0.25cm;
+    margin-top: 0.50cm;
+}
+
+.right3{
+    display: flex;
+}
+
+.right31{
+    margin-left: 0.25cm;
+    margin-top: 0.5cm;
+}
+
+.right33{
+    margin-left: 3cm;
+    margin-top: 0.5cm;
+}
+
+.right4{
+    background-color: rgb(61, 54, 54);
+    border-radius: 10px;
+    margin-bottom: 0.25cm;
+    margin-left: 0.25cm;
+    margin-right: 0.25cm;
+}
+
+.right4a{
+    display: flex;
+}
+
+.right4a1{
+    margin-top: 0.50cm;
+}
+
+.right4a2{
+    margin-left: 6.5cm;
+    margin-top: 0.5cm;
+
+}
+
+.right4b{
+    display: flex;
+    margin-top: 0.5cm;
+}
+
+.right4b1{
+    width: 400px;
+}
+
+.right4{
+    margin-top: 1cm;
+}
+
+
+.right4b2 button{
+    background-color: transparent;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    width: 1529px;
+}
+
+.footer1{
+    display: flex;
+    width: 600px;
+    /* background-color: aliceblue; */
+    margin-top: 0.25cm;
+}
+
+.footer1b{
+    margin-left: 0.25cm;
+}
+
+.footer1c{
+    margin-top: 0.25cm;
+    margin-left: 0.25cm;
+}
+
+.footer2{
+    margin-top: 1cm;
+    margin-left: 4cm;
+
+}
+
+.footer3{
+    display: flex;
+    margin-left:17cm;
+    margin-top: 1cm;
+}
+
+.footer31{
+    margin-left: 0.25cm;
+}
+
+.footer32{
+    margin-left: 0.25cm;
+}
+
