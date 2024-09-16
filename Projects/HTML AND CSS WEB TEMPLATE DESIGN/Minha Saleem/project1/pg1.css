@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+header {
+    position: relative;
+    z-index: 999;
+}
+
+.bg-peachpuff {
+    background-color: peachpuff;
+}
+
+.py-2 {
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;
+}
+
+
+.navbar {
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px; 
+}
+
+
+/* .navbar-brand:hover {
+    color: rgb(207, 101, 59);
+} */
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: rgb(207, 101, 59) !important;
+}
+
+
+.search-input:focus {
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .search-input {
+        width: 150px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .search-input:focus {
+        width: 200px;
+    }
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.footer-heading {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.f1, .f2, .f4 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    border-radius: 20px;
+    width: 200px;
+}
+
+.subscribe-btn {
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.icons i {
+    font-size: 24px;
+    color: white;
+    margin: 0 10px;
+}
+
+.icons {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .f1, .f2, .f4 {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
